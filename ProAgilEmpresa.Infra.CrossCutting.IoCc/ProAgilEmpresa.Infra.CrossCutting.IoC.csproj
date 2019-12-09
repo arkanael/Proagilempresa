@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProagilEmpresa.Applicationn\ProagilEmpresa.Application.csproj" />
+    <ProjectReference Include="..\ProAgilEmpresa.Domainn\ProAgilEmpresa.Domain.csproj" />
+    <ProjectReference Include="..\ProAgilEmpresa.Infra.CrossCutting.Identityy\ProAgilEmpresa.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\ProAgilEmpresa.InfraDataa\ProAgilEmpresa.InfraData.csproj" />
+  </ItemGroup>
+
+</Project>

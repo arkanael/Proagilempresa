@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProagilEmpresa.WebSite", "ProagilEmpresa.WebSite\ProagilEmpresa.WebSite.csproj", "{FC21DCE9-A247-4EEA-A715-BD8D96B6DAE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProAgilEmpresa.Application", "ProAgilEmpresa.Application", "{ACB05A33-5602-4A02-B8FA-81E7A6438B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProagilEmpresa.Application", "ProagilEmpresa.Applicationn\ProagilEmpresa.Application.csproj", "{272F3726-B700-4002-97E7-1F773F11DF99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProAgilEmpresa.Domain", "ProAgilEmpresa.Domain", "{7F954536-B0D2-4274-97FD-DD832CCC1123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAgilEmpresa.Domain", "ProAgilEmpresa.Domainn\ProAgilEmpresa.Domain.csproj", "{CC2F44E7-1580-4A1D-AFDE-2B365EF32985}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProAgilEmpresa.Infra.CrossCutting.Identity", "ProAgilEmpresa.Infra.CrossCutting.Identity", "{2CAA1881-C489-4415-B279-879E04141F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAgilEmpresa.Infra.CrossCutting.Identity", "ProAgilEmpresa.Infra.CrossCutting.Identityy\ProAgilEmpresa.Infra.CrossCutting.Identity.csproj", "{589140BC-E538-4EDE-8FC8-4C993622176A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProAgilEmpresa.Infra.CrossCutting.IoC", "ProAgilEmpresa.Infra.CrossCutting.IoC", "{D59E6B8F-4E97-4BC1-A4DC-F2C3199EDDE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProAgilEmpresa.InfraData", "ProAgilEmpresa.InfraData", "{C6DF1E4D-C2AF-4BC5-8F7B-2E6FE387BA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAgilEmpresa.Infra.CrossCutting.IoC", "ProAgilEmpresa.Infra.CrossCutting.IoCc\ProAgilEmpresa.Infra.CrossCutting.IoC.csproj", "{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProAgilEmpresa.InfraData", "ProAgilEmpresa.InfraDataa\ProAgilEmpresa.InfraData.csproj", "{143F2FDF-5CE4-494D-AF64-27D38FB1371E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC21DCE9-A247-4EEA-A715-BD8D96B6DAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC21DCE9-A247-4EEA-A715-BD8D96B6DAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC21DCE9-A247-4EEA-A715-BD8D96B6DAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC21DCE9-A247-4EEA-A715-BD8D96B6DAE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{272F3726-B700-4002-97E7-1F773F11DF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{272F3726-B700-4002-97E7-1F773F11DF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{272F3726-B700-4002-97E7-1F773F11DF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{272F3726-B700-4002-97E7-1F773F11DF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC2F44E7-1580-4A1D-AFDE-2B365EF32985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC2F44E7-1580-4A1D-AFDE-2B365EF32985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC2F44E7-1580-4A1D-AFDE-2B365EF32985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC2F44E7-1580-4A1D-AFDE-2B365EF32985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589140BC-E538-4EDE-8FC8-4C993622176A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589140BC-E538-4EDE-8FC8-4C993622176A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589140BC-E538-4EDE-8FC8-4C993622176A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589140BC-E538-4EDE-8FC8-4C993622176A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{143F2FDF-5CE4-494D-AF64-27D38FB1371E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{143F2FDF-5CE4-494D-AF64-27D38FB1371E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{143F2FDF-5CE4-494D-AF64-27D38FB1371E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{143F2FDF-5CE4-494D-AF64-27D38FB1371E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{272F3726-B700-4002-97E7-1F773F11DF99} = {ACB05A33-5602-4A02-B8FA-81E7A6438B8B}
+		{CC2F44E7-1580-4A1D-AFDE-2B365EF32985} = {7F954536-B0D2-4274-97FD-DD832CCC1123}
+		{589140BC-E538-4EDE-8FC8-4C993622176A} = {2CAA1881-C489-4415-B279-879E04141F3B}
+		{602BB601-2A77-4DDA-A2A3-BC77F97EDFA1} = {D59E6B8F-4E97-4BC1-A4DC-F2C3199EDDE5}
+		{143F2FDF-5CE4-494D-AF64-27D38FB1371E} = {C6DF1E4D-C2AF-4BC5-8F7B-2E6FE387BA8F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E996B477-13E1-41DE-8C40-08078CAF3138}
+	EndGlobalSection
+EndGlobal
